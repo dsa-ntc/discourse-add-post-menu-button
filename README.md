@@ -16,8 +16,9 @@ This theme component adds a button in the post menu of one or more selected cate
 All settings are within the Objects setting editor.
 
 Form button:
+
 | Name | Field Type | Description |
-|--- |---| |--- |
+| :--- | :--- | :--- |
 | Rule Name | string | Internal label to identify this rule in the settings editor |
 | Enabled Categories | string | Category number where this form button will appear - enter multiple category numbers with a pipe separator |
 | Include Subcategories | checkbox | Also display this button in subcategories of the selected categories |
@@ -25,12 +26,13 @@ Form button:
 | First Post Only | checkbox | Only show the button on the original post (post #1) of a topic |
 | Base Form URL | string | The base URL of your Workflows form (e.g., https://example.com/form) |
 | Automatically pass topic_id and post_id | checkbox | Automatically appends ?topic_id=...&post_id=... to the Form URL" |
-| Button Icon | string | FontAwesome 6 icon name
+| Button Icon | string | FontAwesome 6 icon name |
 | Button Tooltip | string | Hover title and screen-reader label for the button |
 
 Form parameters:
+
 | Name | Field Type | Description |
-|--- |---| |--- |
+| :--- | :--- | :--- |
 | Form Field Name | string | EXACT name/label of the field in your form (spaces are automatically encoded) - use the Custom field name if applied to the field, otherwise use the Label field |
 | Field Value | string | Static text or dynamic placeholders: {post_id}, {post_number}, {topic_id}, {topic_slug}, {topic_title}, {category_id}, {category_name}, {username}, {user_id}, {post_url}, {current_username}, {current_user_id} |
 
