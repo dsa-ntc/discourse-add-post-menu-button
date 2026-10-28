@@ -1,5 +1,5 @@
 # Add Post Menu Button
-Workflows is an awesome plugin! But currently, there's not a way for the Post Menu Button node to navigate a user to a Workflows form.
+Discourse Workflows is an awesome plugin! But currently, there's not a way for the Post Menu Button node to navigate a user to a Workflows form.
 
 This theme component adds a button in the post menu of one or more selected categories, which opens an optionally pre-filled Workflows form in a new tab.
 
