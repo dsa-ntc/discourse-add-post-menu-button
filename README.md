@@ -40,14 +40,17 @@ Form parameters:
 
 ### Object settings editor
 
-<img width="546" height="791" alt="image" src="https://github.com/user-attachments/assets/a57e53a0-0ef4-45a8-a136-9a7ed610cfc4" />
+<img width="1091" height="1581" alt="image" src="https://github.com/user-attachments/assets/f843b62b-eb59-46f4-b791-25dc96bcd31d" />
+
 
 ### Form parameters
 
-<img width="545" height="321" alt="image" src="https://github.com/user-attachments/assets/28c63754-3c7e-4430-8210-3e37e5218da2" />
+<img width="1090" height="641" alt="image" src="https://github.com/user-attachments/assets/8f647670-f4f1-49e6-81b6-e355f72071e3" />
+
 
 ### Post menu
 The button will appear on the left side of the menu.
 
-<img width="262" height="49" alt="image" src="https://github.com/user-attachments/assets/7813ec8c-a215-4898-a8ca-bc4e1d9913d6" />
+<img width="524" height="98" alt="image" src="https://github.com/user-attachments/assets/34e30ebe-3b63-4e28-8193-6556bc9cc1e2" />
+
 
