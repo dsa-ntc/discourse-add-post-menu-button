@@ -1,0 +1,61 @@
+form_buttons:
+  type: objects
+  default:
+    - name: "Triage Form"
+      enabled_categories: ""
+      include_subcategories: true
+      allowed_groups: [2]
+      first_post_only: false
+      form_url: "https://example.com/form"
+      include_default_ids: true
+      button_icon: "file-lines"
+      button_title: "Open form for this post"
+      form_params:
+        - field_name: "Author Username"
+          field_value: "{username}"
+        - field_name: "Post Link"
+          field_value: "{post_url}"
+  schema:
+    name: form_button
+    identifier: name
+    properties:
+      name:
+        type: string
+        required: true
+      enabled_categories:
+        type: string
+        default: ""
+      include_subcategories:
+        type: boolean
+        default: true
+      allowed_groups:
+        type: groups
+      first_post_only:
+        type: boolean
+        default: false
+      form_url:
+        type: string
+        required: true
+        validations:
+          min_length: 1
+      include_default_ids:
+        type: boolean
+        default: true
+      button_icon:
+        type: string
+        default: "file-lines"
+      button_title:
+        type: string
+        default: "Open form for this post"
+      form_params:
+        type: objects
+        schema:
+          name: parameter
+          identifier: field_name
+          properties:
+            field_name:
+              type: string
+              required: true
+            field_value:
+              type: string
+              required: true

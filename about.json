@@ -1,0 +1,28 @@
+{
+  "name": "Add Post Menu Button for Workflows Forms",
+  "component": true,
+  "authors": "Jen M",
+  "about_url": null,
+  "license_url": null,
+  "theme_version": "1.0.0",
+  "minimum_discourse_version": "3.4.0",
+  "maximum_discourse_version": null,
+  "assets": {},
+  "modifiers": {
+    "svg_icons": [
+      "up-right-from-square",
+      "file-lines",
+      "thumbs-up",
+      "thumbs-down",
+      "circle-check",
+      "circle-up",
+      "circle-down",
+      "triangle-exclamation",
+      "clipboard-list",
+      "envelope",
+      "bell",
+      "star",
+      "tag"
+    ]
+  }
+}

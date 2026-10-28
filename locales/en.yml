@@ -1,0 +1,48 @@
+en:
+  theme_metadata:
+    description: "Adds configurable post menu buttons per category and group that open Workflows form links with optional auto-populated parameters"
+    settings:
+      form_buttons:
+        description: "Configure category-specific post menu form buttons and their pre-filled form fields"
+        schema:
+          properties:
+            name:
+              label: "Rule Name"
+              description: "Internal label to identify this rule in the settings editor"
+            enabled_categories:
+              label: "Enabled Categories"
+              description: "Category number where this form button will appear - enter multiple category numbers with a pipe separator"
+            include_subcategories:
+              label: "Include Subcategories"
+              description: "Also display this button in subcategories of the selected categories"
+            allowed_groups:
+              label: "Allowed Groups"
+              description: "Only show this button to members of these groups, leave empty to allow everyone"
+            first_post_only:
+              label: "First Post Only"
+              description: "Only show the button on the original post (post #1) of a topic"
+            form_url:
+              label: "Base Form URL"
+              description: "The base URL of your Workflows form (e.g., https://example.com/form)"
+            include_default_ids:
+              label: "Automatically pass topic_id and post_id"
+              description: "Automatically appends ?topic_id=...&post_id=... to the Form URL"
+            button_icon:
+              label: "Button Icon"
+              description: "FontAwesome 6 icon name"
+            button_title:
+              label: "Button Tooltip"
+              description: "Hover title and screen-reader label for the button"
+            form_params:
+              label: "Additional Form Fields"
+              description: "Add custom form field names and values to pre-populate via the URL"
+              schema:
+                properties:
+                  field_name:
+                    label: "Form Field Name"
+                    description: "EXACT name/label of the field in your form (spaces are automatically encoded) - use the Custom field name if applied to the field, otherwise use the Label field"
+                  field_value:
+                    label: "Field Value"
+                    description: "Static text or dynamic placeholders: {post_id}, {post_number}, {topic_id}, {topic_slug}, {topic_title}, {category_id}, {category_name}, {username}, {user_id}, {post_url}, {current_username}, {current_user_id}"
+  post_form_button:
+    default_title: "Open form for this post"
